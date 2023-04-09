@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>MAXPRO</title>
+</head>
+<body>
+
+    <nav class="container relative mx-auto p-6 bg-transparent">
+        <div class="flex justify-between items-center">
+            <div class="mt-1">
+                <a href="" class="font-bold text-white text-2xl"><img src="img/maxpro.png" alt=""></a>
+            </div>
+            <div class="hidden md:flex space-x-6">
+                <a href="" class="text-white font-medium hover:text-mintGreen">About Us</a>
+                <a href="" class="text-white font-medium hover:text-mintGreen">Pricing</a>
+                <a href="" class="text-white font-medium hover:text-mintGreen">Gallery</a>
+                <a href="" class="text-white font-medium hover:text-mintGreen">Trainers</a>
+                <a href="" class="text-white font-medium hover:text-mintGreen">Contact</a>
+            </div>
+            <div class="hidden md:block mt-1 space-x-4">
+                <a href="" class="text-white hover:text-mintGreen"><i class="fa-brands fa-facebook"></i></a>
+                <a href="" class="text-white hover:text-mintGreen"><i class="fa-brands fa-instagram"></i></i></a>
+            </div>
+
+            <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+                <span class="hamburger-top"></span>
+                <span class="hamburger-middle"></span>
+                <span class="hamburger-bottom"></span>
+            </button>
+        </div>
+
+        <div class="md:hidden">
+            <div id="menu" class="absolute flex-col items-center self-end right-6 left-6 sm:auto sm:self-center py-8 mt-10 space-y-6 font-bold bg-white drop-shadow-md hidden">
+                <a href="" class="text-black font-medium hover:text-mintGreen">About Us</a>
+                <a href="" class="text-black font-medium hover:text-mintGreen">Pricing</a>
+                <a href="" class="text-black font-medium hover:text-mintGreen">Gallery</a>
+                <a href="" class="text-black font-medium hover:text-mintGreen">Trainers</a>
+                <a href="" class="text-black font-medium hover:text-mintGreen">Contact</a>
+                <div class="mt-1 space-x-4">
+                    <a href="" class="text-black hover:text-mintGreen"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="" class="text-black hover:text-mintGreen"><i class="fa-brands fa-instagram"></i></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="container flex flex-col items-center space-y-10 mt-10 md:space-y-24 mx-auto">
+            <div class="flex flex-col mt-8 md:mt-24">
+                <h1 class="font-bold text-4xl md:text-7xl text-center text-white">
+                    START YOUR
+                </h1>
+                <h1 class="block font-bold text-4xl md:text-7xl text-center text-white">
+                    JOURNEY <span class="text-mintGreen">TODAY</span>
+                </h1>
+                <p class="mt-5 font-medium text-white text-center">
+                    Flexzone is a gym in the center of Rouge. Come join us and start getting closer to your dream body.
+                </p>
+                <div class="text-center mt-10">
+                    <a href="" class="px-10 py-4 font-medium bg-mintGreen text-dark rounded-lg">Join Now</a>
+                </div>
+            </div>
+
+            <div class="flex flex-row space-x-0 sm:space-x-3 md:space-x-24 items-center mt-20">
+                <img src="img/gym2.png" class="land" alt="">
+                <img src="img/gym1.png" class="land" alt="">
+                <img src="img/gym3.png" class="land" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="bg-black mt-14">
+
+        <!--About-->
+        <div class="container flex flex-col-reverse md:flex-row items-center mx-auto px-6 space-y-0 md:space-y-0">
+            <div class="flex flex-col space-y-4 md:mb-24 mt-14 md:mt-24 md:w-1/2">
+                <h3 class="max-w-md text-mintGreen font-bold text-center md:text-left">
+                    FIND OUT MORE
+                </h3>
+                <h1 class="max-w-md text-white text-6xl text-center md:text-left">
+                    ABOUT US
+                </h1>
+                <p class=" text-white text-center md:text-left">
+                    We are a community-focused gym located in the heart of downtown. Our team is dedicated to helping people of all fitness levels reach their goals and lead healthier, more active lives.
+                </p>
+                <p class=" text-white text-center md:text-left">
+                    At FlexZone, we believe in the power of exercise to transform both the body and the mind. That's why we offer a wide range of equipment and classes to suit every fitness need and preference. From weight lifting to cardio to yoga, we have something for everyone.
+                </p>
+                <p class=" text-white text-center md:text-left">
+                    Our team of certified trainers is here to support and motivate you every step of the way. Whether you're just starting out on your fitness journey or looking to take your training to the next level, we have the knowledge and experience to help you succeed.
+                </p>
+            </div>
+            <!--Right-->
+            <div class="md:w-1/2">
+                <img src="img/aboutus.jpg" class="md:mb-24 mt-10 md:mt-24 rounded-lg md:mx-5 xl:mx-24" alt="">
+            </div>
+        </div>
+
+        <!--Part 2-->
+        <div class="flex flex-col items-center text-center mt-10">
+            <h2 class="text-mintGreen text-center md:text-2xl font-bold">WE ARE GOOD FIT FOR EVERYONE</h2>
+            <h1 class="text-white text-center text-5xl md:text-6xl mt-2">WHY COME TO US</h1>
+        </div>
+
+        <div class="container flex flex-col px-4 mx-auto mt-10 space-y-12 md:space-y-0 md:flex-row">
+            <div class="flex flex-col space-y-8 md:w-1/2">
+                <div class="flex flex-col space-y-6 md:space-y-0 md:space-x-4 md:flex-row">
+
+                    <div class="rounded-l-full bg-white md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 rounded-full text-white md:py-1">
+                                <img src="img/ab2.png" alt="">
+                            </div>
+                            <h3 class="text-base text-black font-bold md:mb-4 md:hidden">
+                                TRUE GYM ATMOSPHERE
+                            </h3>
+                        </div>
+                    </div>
+    
+                    <div class="max-w-md">
+                        <h3 class="hidden md:mt-2 mb-4 text-lg text-white font-bold md:block">
+                            TRUE GYM ATMOSPHERE
+                        </h3>
+                        <p class="max-w-md text-white">
+                            Whether you're a beginner or a seasoned athlete, you'll feel at home in our inclusive and welcoming environment. We believe that a true gym atmosphere is one that fosters growth and personal development, and we work hard to create that kind of culture every day.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex flex-col space-y-6 md:space-y-0 md:space-x-4 md:flex-row">
+
+                    <div class="rounded-l-full bg-white md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1">
+                                <img src="img/ab3.png" alt="">
+                            </div>
+                            <h3 class="text-base font-bold md:mb-4 md:hidden">
+                                EXPERIENCED TRAINERS
+                            </h3>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <h3 class="hidden mb-4 text-lg text-white font-bold md:block">
+                            EXPERIENCED TRAINERS
+                        </h3>
+                        <p class="max-w-md text-white">
+                            Our trainers are truly amazing! With years of experience and a passion for fitness, they are dedicated to helping our members achieve their goals. Whether you're looking to lose weight, build muscle, or just improve your overall health and wellness, our trainers are here to help.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="flex flex-col space-y-8 md:w-1/2">
+                <div class="flex flex-col space-y-6 md:space-y-0 md:space-x-2 md:flex-row">
+
+                    <div class="rounded-l-full bg-white md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1">
+                                <img src="img/ab1.png" alt="">
+                            </div>
+                            <h3 class="text-base font-bold md:mb-4 md:hidden">
+                                ALL KINDS OF EQUIPMENT
+                            </h3>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <h3 class="hidden mb-4 text-lg text-white font-bold md:block">
+                            ALL KINDS OF EQUIPMENT
+                        </h3>
+                        <p class="max-w-md text-white">
+                            Our gym is fully equipped with all the latest and greatest fitness equipment. From cardio machines to free weights, we have everything you need to reach your fitness goals. Whether you prefer to lift, run, or do some high-intensity interval training, you'll find the perfect equipment for your workouts.
+                        </p>
+                        </p>
+                    </div>
+                </div>
+    
+                <div class="flex flex-col space-y-6 md:space-y-0 md:space-x-2 md:flex-row">
+
+                    <div class="rounded-l-full bg-white md:bg-transparent">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-white rounded-full md:py-1">
+                                <img src="img/ab4.png" alt="">
+                            </div>
+                            <h3 class="text-base font-bold md:mb-4 md:hidden">
+                                PROFESSIONAL-FRIENDLY
+                            </h3>
+                        </div>
+                    </div>
+    
+                    <div>
+                        <h3 class="hidden mb-4 text-lg text-white font-bold md:block">
+                            PROFESSIONAL-FRIENDLY
+                        </h3>
+                        <p class="max-w-md text-white">
+                            Our gym is proud to be a home away from home for many professional athletes. We understand the demands of intense training and competition, and we strive to provide the best possible facilities and support to help our athlete members reach their full potential.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!--Pricing-->
+        <div class="md:max-w-6xl px-5 mx-auto mt-32 text-center">
+            <h2 class="text-mintGreen font-bold">
+                FIRST ENTRANCE FOR FREE
+            </h2>
+            <h2 class="text-5xl mt-4 text-white font-medium text-cetner">
+                PRICING
+            </h2>
+
+            <div class="flex flex-col mt-24 space-y-4 md:space-y-0 md:flex-row md:space-x-6">
+                <div class="flex flex-col items-center space-y-6 p-6 rounded-lg bg-slate-800 md:1/4 lg:w-1/3">
+                    <h1 class="text-white text-3xl">
+                        BASIC
+                    </h1>
+                    <h1 class="text-white text-3xl">
+                        $39/<span class="text-darkGrayishBlue text-sm">month</span>
+                    </h1>
+
+                    <div class="flex flex-col space-y-4">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-mintGreen text-2xl">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+
+                            <div class="text-left">
+                                <h3 class="text-medium font-bold text-white">
+                                    Access to all gym equipment
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-mintGreen text-2xl">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+
+                            <div class="text-left">
+                                <h3 class="text-medium font-bold text-white">
+                                    Unlimited free time
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-mintGreen text-2xl">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+
+                            <div class="text-left">
+                                <h3 class="text-medium font-bold text-white">
+                                    Free 1 entry for a friend every month.
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-mintGreen text-2xl">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+
+                            <div class="text-left">
+                                <h3 class="text-medium font-bold text-white">
+                                    Discount on group fitness classes.
+                                </h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pt-32">
+                        <button class="p-4 px-24 rounded-lg border-2 border-white text-white text-medium hover:bg-mintGreen hover:text-black">
+                            Buy Online
+                        </button>
+                    </div>
+                </div>
+
+                <div class="flex flex-col items-center space-y-6 p-6 rounded-lg bg-mintGreen md:1/4 lg:w-1/3">
+                    <h1 class="text-white text-3xl">
+                        PLUS
+                    </h1>
+                    <h1 class="text-white text-3xl">
+                        $59/<span class="text-white text-sm">month</span>
+                    </h1>
+
+                    <div class="flex flex-col space-y-4">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-black text-2xl">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+
+                            <div class="text-left">
+                                <h3 class="text-medium font-bold text-white">
+                                    All benefits from BASIC
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-black text-2xl">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+
+                            <div class="text-left">
+                                <h3 class="text-medium font-bold text-white">
+                                    Specialized training programs
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-black text-2xl">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+
+                            <div class="text-left">
+                                <h3 class="text-medium font-bold text-white">
+                                    Two free personal training session per month.
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-black text-2xl">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+
+                            <div class="text-left">
+                                <h3 class="text-medium font-bold text-white">
+                                    Preoders on our preshop
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-black text-2xl">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+
+                            <div class="text-left">
+                                <h3 class="text-medium font-bold text-white">
+                                    Discount on nutrision
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-black text-2xl">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+
+                            <div class="text-left">
+                                <h3 class="text-medium font-bold text-white">
+                                    Access to our exclusive events
+                                </h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <button class="mt-14 p-4 px-24 rounded-lg bg-white text-black text-medium hover:bg-black hover:text-white">
+                        Buy Online
+                    </button>
+                </div>
+
+                <div class="flex flex-col items-center space-y-6 p-6 rounded-lg bg-slate-800 md:1/4 lg:w-1/3">
+                    <h1 class="text-white text-3xl">
+                        VIP
+                    </h1>
+                    <h1 class="text-white text-3xl">
+                        $99/<span class="text-darkGrayishBlue text-sm">month</span>
+                    </h1>
+
+                    <div class="flex flex-col space-y-4">
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-mintGreen text-2xl">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+
+                            <div class="text-left">
+                                <h3 class="text-medium font-bold text-white">
+                                    All benefits from PLUS
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-mintGreen text-2xl">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+
+                            <div class="text-left">
+                                <h3 class="text-medium font-bold text-white">
+                                    Unlimited personal training session
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-mintGreen text-2xl">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+
+                            <div class="text-left">
+                                <h3 class="text-medium font-bold text-white">
+                                    VIP discount on all services and products
+                                </h3>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center space-x-2">
+                            <div class="px-4 py-2 text-mintGreen text-2xl">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+
+                            <div class="text-left">
+                                <h3 class="text-medium font-bold text-white">
+                                    VIP access to our exclusive events
+                                </h3>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="pt-32">
+                        <button class="p-4 px-24 rounded-lg border-2 border-white text-white text-medium hover:bg-mintGreen hover:text-black">
+                            Buy Online
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--Gallery-->
+        <div class="max-w-7xl space-y-4 md:space-y-0 px-5 mx-auto mt-24">
+            <div class="flex flex-col text-left mt-32">
+                <h2 class="text-mintGreen font-bold">SEE WHAT OUR GYM LOOK LIKE</h2>
+                <h1 class="text-white text-5xl md:text-6xl mt-2">GALLERY</h1>
+            </div>
+
+            <div class="hidden md:flex flex-col md:flex-row pt-6 space-x-4">
+                <div class="flex flex-col items-center rounded-lg md:w-1/3">
+                    <img src="img/gallery1.jpg" class="rounded-lg" alt="">
+                </div>
+                <div class="flex flex-col items-center rounded-lg md:w-1/3">
+                    <img src="img/gallery2.jpg" class="rounded-lg" alt="">
+                </div>
+                <div class="flex flex-col items-center rounded-lg md:w-1/3">
+                    <img src="img/gallery3.jpg" class="rounded-lg" alt="">
+                </div>
+            </div>
+
+            <swiper-container class="mySwiper pt-6 md:hidden" space-between="30" slides-per-view="auto" pagination="true"
+            pagination-clickable="true" autoplay="3000">
+                <swiper-slide>
+                    <img src="img/gallery1.jpg" alt="">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="img/gallery2.jpg" alt="">
+                </swiper-slide>
+                <swiper-slide>
+                    <img src="img/gallery3.jpg" alt="">
+                </swiper-slide>
+            </swiper-container>
+        </div>
+
+
+        <!--Trainers-->
+        <div class="max-w-7xl md:space-y-0 px-5 mx-auto mt-24">
+            <div class="flex flex-col text-left mt-32">
+                <h2 class="text-mintGreen font-bold">AT LEAST 3 YEARS OF EXPERIENCE</h2>
+                <h1 class="text-white text-5xl md:text-6xl mt-2">TRAINERS</h1>
+            </div>
+
+            <div class="hidden md:flex flex-col md:flex-row pt-6 space-y-5 md:space-y-0 space-x-4">
+                <div class="flex flex-col space-y-2 text-left rounded-lg md:w-1/4">
+                    <img src="img/trainer1.jpg" class="rounded-lg" alt="">
+                    <h3 class="text-white font-medium">Carmela Johnson</h3>
+                    <p class=" text-darkGrayishBlue">
+                        “I have been passionate about health and fitness for as long as I can remember, and I have always loved helping others achieve their goals.”
+                    </p>
+                    <div class="flex justify-start md:pt-12">
+                        <a href="" class="bg-transparent text-mintGreen">Contact<span class="mx-2 text-mintGreen"><i class="fa-solid fa-arrow-right"></i></span></a>
+                    </div>
+                </div>
+                <div class="flex flex-col space-y-2 text-left rounded-lg md:w-1/4">
+                    <img src="img/trainer2.jpg" class="rounded-lg" alt="">
+                    <h3 class="text-white font-medium">Depth Smith</h3>
+                    <p class=" text-darkGrayishBlue">
+                        "I believe that fitness is more than just a physical pursuit - it's a mindset and a lifestyle. That's why I focus on helping my clients develop healthy habits and behaviors that they can sustain long-term.”
+                    </p>
+                    <div class="flex justify-start">
+                        <a href="" class="bg-transparent text-mintGreen">Contact<span class="mx-2 text-mintGreen"><i class="fa-solid fa-arrow-right"></i></span></a>
+                    </div>
+                </div>
+                <div class="flex flex-col space-y-2 text-left rounded-lg md:w-1/4">
+                    <img src="img/trainer3.jpg" class="rounded-lg" alt="">
+                    <h3 class="text-white font-medium">Anasthasia Gray</h3>
+                    <p class=" text-darkGrayishBlue">
+                        "I have always been drawn to the transformative power of fitness, and I love nothing more than seeing my clients reach their goals and achieve their full potential.”
+                    </p>
+                    <div class="flex justify-start md:pt-6">
+                        <a href="" class="bg-transparent text-mintGreen">Contact<span class="mx-2 text-mintGreen"><i class="fa-solid fa-arrow-right"></i></span></a>
+                    </div>
+                </div>
+                <div class="flex flex-col space-y-2 text-left rounded-lg md:w-1/4">
+                    <img src="img/trainer5.jpg" class="rounded-lg" alt="">
+                    <h3 class="text-white font-medium">William Doe</h3>
+                    <p class=" text-darkGrayishBlue">
+                        "As a former competitive athlete, I know firsthand the importance of hard work and dedication. I bring that same level of commitment to my clients, and I am always striving to help them reach their full potential.”
+                    </p>
+                    <div class="flex justify-start">
+                        <a href="" class="bg-transparent text-mintGreen">Contact<span class="mx-2 text-mintGreen"><i class="fa-solid fa-arrow-right"></i></span></a>
+                    </div>
+                </div>
+            </div>
+
+            <swiper-container class="mySwiper md:hidden pt-6" pagination="true" pagination-clickable="true" slides-per-view="auto"
+            centered-slides="true" space-between="30">
+            <swiper-slide>
+                <img src="img/trainer1.jpg" class="rounded-lg" alt="">
+                <h1 class="swiper-text text-white font-sm md:font-medium">Carmela Johnson</h1>
+                <button class="text-mintGreen p-1 md:px-4 md:py-2 rounded-lg border-mintGreen bg-transparent font-sm md:font-medium">Contact<span class="mx-2 text-mintGreen font-medium"><i class="fa-solid fa-arrow-right"></i></span></button>
+            </swiper-slide>
+            <swiper-slide>
+                <img src="img/trainer2.jpg" class="rounded-lg" alt="">
+                <h1 class="swiper-text text-white font-sm md:font-medium">Depth Smith</h1>
+                <button class="text-mintGreen p-1 md:px-4 md:py-2 rounded-lg border-mintGreen bg-transparent font-sm md:font-medium">Contact<span class="mx-2 text-mintGreen font-medium"><i class="fa-solid fa-arrow-right"></i></span></button>
+            </swiper-slide>
+            <swiper-slide>
+                <img src="img/trainer3.jpg" class="rounded-lg" alt="">
+                <h1 class="swiper-text text-white font-sm md:font-medium">Anasthasia Gray</h1>
+                <button class="text-mintGreen p-1 md:px-4 md:py-2 rounded-lg border-mintGreen bg-transparent font-sm md:font-md">Contact<span class="mx-1 text-mintGreen font-medium"><i class="fa-solid fa-arrow-right"></i></span></button>
+            </swiper-slide>
+            <swiper-slide>
+                <img src="img/trainer5.jpg" class="rounded-lg" alt="">
+                <h1 class="swiper-text text-white font-sm md:font-medium">William Doe</h1>
+                <button class="text-mintGreen p-1 md:px-4 md:py-2 rounded-lg border-mintGreen bg-transparent font-sm md:font-medium">Contact<span class="mx-2 text-mintGreen font-medium"><i class="fa-solid fa-arrow-right"></i></span></button>
+            </swiper-slide>
+          </swiper-container>
+        </div>
+
+
+        <!--Contact-->
+        <div class="max-w-6xl mx-auto px-5 mt-24">
+                <div class="flex flex-col md:flex-row pt-6 p-6 text-left rounded-lg bg-slate-900 w-auto">
+                    <div class="flex flex-col p-6 md:flex-row">
+                        <div class="flex flex-col md:w-1/2 space-y-3">
+                            <h3 class="text-mintGreen">
+                                CONTACT
+                            </h3>
+        
+                            <h1 class="text-white text-3xl font-medium">
+                                WE CAN'T WAIT TO SEE YOU
+                            </h1>
+        
+                            <p class=" text-darkGrayishBlue">
+                                We are looking forward to you joining our gym, training with us and starting your journey for your dream physique.
+                            </p>
+
+                            <div class="flex flex-col pt-4 ">
+                                <div class="flex items-center space-x-4">
+                                    <div class="px-4 py-2 text-white text-2xl">
+                                        <i class="fa-solid fa-phone"></i>
+                                    </div>
+        
+                                    <div class="text-left">
+                                        <h3 class="text-medium font-bold text-white">
+                                            +420 221 573 127
+                                        </h3>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-center space-x-4">
+                                    <div class="px-4 py-2 text-white text-2xl">
+                                        <i class="fa-solid fa-envelope"></i>
+                                    </div>
+        
+                                    <div class="text-left">
+                                        <h3 class="text-medium font-bold text-white">
+                                            info@maxpro.com
+                                        </h3>
+                                    </div>
+                                </div>
+
+                                <div class="flex items-center space-x-4">
+                                    <div class="px-4 py-2 text-white text-2xl">
+                                        <i class="fa-solid fa-location-dot"></i>
+                                    </div>
+        
+                                    <div class="text-left">
+                                        <h3 class="text-medium font-bold text-white">
+                                            121 Maple Street Newark, NJ 07102
+                                        </h3>
+                                    </div>
+                                </div>
+
+                                
+                                <div class="flex items-center space-x-4">
+                                    <div class="px-4 py-2 text-white text-2xl">
+                                        <i class="fa-solid fa-clock"></i>
+                                    </div>
+        
+                                    <div class="text-left">
+                                        <h3 class="text-medium font-bold text-white">
+                                            Monday-Saturday: 8AM-8PM
+                                            <span class="text-mintGreen px-1">Sunday: Closed</span>
+                                        </h3>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <a href="" class="text-white pt-12">I have a question <span class="text-mintGreen px-2"><i class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
+
+                        <div class="md:w-1/2">
+                            <img src="img/loc.jpg" class="pt-8 rounded-lg w-auto" alt="">
+                        </div>
+                    </div>
+                </div>
+        </div>
+
+        <!--Footer-->
+        <div class="container flex flex-row mx-auto">
+            <div class="max-w-5xl mx-auto px-5 mt-12 md:mt-24 mb-14">
+                <div class="flex items-center space-x-6 md:space-x-24">
+                    <div>
+                        <img src="img/maxpro.png" alt="">
+                    </div>
+                    <div>
+                        <h3 class="text-white md:font-medium">
+                            Terms & Condition
+                        </h3>
+                    </div>
+                    <div>
+                        <h3 class="text-white md:font-medium">
+                            Privacy Policy
+                        </h3>
+                    </div>
+                    <div>
+                        <h1 class="hidden md:flex md:text-white md:font-medium">
+                            Copyright &copy; MAXPRO 2023
+                        </h1>
+                    </div>
+                </div>
+
+                <div class="md:hidden flex justify-center items-center pt-6">
+                    <h1 class="text-white md:font-medium">
+                        Copyright &copy; MAXPRO 2023
+                    </h1>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
