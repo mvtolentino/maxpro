@@ -1,0 +1,118 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-image: url('../img/Untitled.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+  swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    position: relative;
+  }
+
+  swiper-slide h1 {
+    position: absolute;
+    left: 1.5rem;
+    bottom: 4rem;
+  }
+
+  swiper-slide button {
+    position: absolute;
+    left: 1.5rem;
+    bottom: 1rem;
+  }
+
+  swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+@media(max-width: 432px){
+    .land {
+        height: 40%;
+        width: 33%;
+    }
+
+    swiper-slide {
+        position: relative;
+    }
+
+    swiper-slide h1 {
+        position: absolute;
+        left: 0.5rem;
+        bottom: 2.25rem;
+    }
+
+    swiper-slide button {
+        position: absolute;
+        left: 0.5rem;
+        bottom: 0.5rem;
+    }
+
+}
+
+@media(max-width: 1250px){
+    body {
+        background-size: auto;
+    }
+}
+
+.hamburger {
+    cursor: pointer;
+    position: relative;
+    width: 24px;
+    height: 24px;
+    transition: all 0.25s;
+}
+
+.hamburger-top,
+.hamburger-middle,
+.hamburger-bottom {
+    position: absolute;
+    width: 24px;
+    height: 2px;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    transform: rotate(0);
+    transition: all 0.5s;
+}
+
+.hamburger-middle {
+    transform: translateY(7px);
+}
+
+.hamburger-bottom {
+    transform: translateY(14px);
+}
+
+.open {
+    transform: rotate(90deg);
+    transform: translateY(0);
+}
+
+.open .hamburger-top {
+    transform: rotate(45deg) translateY(6px) translate(6px);
+}
+
+.open .hamburger-middle {
+    display: none;
+}
+
+.open .hamburger-bottom {
+    transform: rotate(-45deg) translateY(6px) translate(-6px);
+}
